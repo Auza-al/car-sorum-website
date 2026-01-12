@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUXE AUTO | Boutique Showroom</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="loader">
+        <div class="loader-content">
+            <h1 class="loader-logo">LUXE<span>AUTO</span></h1>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+
+    <div id="main-content">
+        <nav id="navbar">
+            <div class="container nav-wrapper">
+                <div class="logo">LUXE<span>AUTO</span></div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#katalog">Collections</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                </ul>
+                <div class="nav-extra">
+                    <div id="themeToggle" title="Ganti Tema">
+                        <i class="fas fa-circle-half-stroke"></i>
+                    </div>
+                    <a href="https://wa.me/62812345678" class="btn-contact">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+
+    <section id="home" class="hero">
+    <div class="slider">
+        <div class="slide active" id="videoSlide">
+            <video autoplay muted loop playsinline id="heroVideo">
+                <source src="https://assets.mixkit.co/videos/preview/mixkit-close-up-of-a-luxury-car-interior-and-dashboard-42614-large.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?q=80&w=2070');"></div>
+    </div>
+    
+    <div class="hero-overlay">
+        <div class="hero-text">
+            <h5 class="reveal">Exclusivity in Every Detail</h5>
+            <h1 class="reveal">DRIVE THE FUTURE</h1>
+        </div>
+    </div>
+</section>
+
+        <section class="services section-padding container" id="services">
+            <div class="section-header" style="text-align:center; margin-bottom: 80px;">
+                <p style="color:var(--gold); letter-spacing:3px; font-size:12px;">WHY CHOOSE US</p>
+                <h2>Unmatched Value & Service</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-item reveal">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Certified Quality</h3>
+                    <p>Setiap unit telah melalui inspeksi ketat 150 titik oleh mekanik ahli kami untuk jaminan kualitas.</p>
+                </div>
+                <div class="service-item reveal">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Seamless Process</h3>
+                    <p>Pengurusan dokumen, pembiayaan, dan pengiriman unit langsung ke depan pintu rumah Anda.</p>
+                </div>
+                <div class="service-item reveal">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Extended Warranty</h3>
+                    <p>Perlindungan mesin dan transmisi hingga 2 tahun untuk ketenangan pikiran Anda.</p>
+                </div>
+                <div class="service-item reveal">
+                    <i class="fas fa-headset"></i>
+                    <h3>24/7 Support</h3>
+                    <p>Tim ahli kami selalu siap membantu Anda kapan saja, di mana saja.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container section-padding" id="katalog">
+            <div class="section-header">
+                <div class="title-group">
+                    <p style="color:var(--gold); letter-spacing:3px; font-size:12px;">AVAILABLE STOCKS</p>
+                    <h2>Our Collections</h2>
+                </div>
+                <div class="filters">
+                    <span class="filter-btn active" data-filter="all">All</span>
+                    <span class="filter-btn" data-filter="SUV">SUV</span>
+                    <span class="filter-btn" data-filter="Sport">Sport</span>
+                    <span class="filter-btn" data-filter="Sedan">Sedan</span>
+                </div>
+            </div>
+            <div class="car-grid" id="carGrid"></div>
+        </section>
+
+        <section class="testimonials section-padding" id="testimonials">
+            <div class="container">
+                <div class="section-header" style="text-align:center;">
+                    <p style="color:var(--gold); letter-spacing:3px; font-size:12px;">VOICES OF SATISFACTION</p>
+                    <h2>What Our Clients Say</h2>
+                </div>
+                <div class="testimonial-slider">
+                    <div class="testimonial-wrapper" id="testimonialWrapper">
+                        </div>
+                    <div class="slider-nav">
+                        <button class="prev-testi"><i class="fas fa-chevron-left"></i></button>
+                        <button class="next-testi"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="premium-footer">
+    <div class="container footer-grid">
+        <div class="footer-brand reveal">
+            <div class="logo">LUXE<span>AUTO</span></div>
+            <p>The ultimate destination for luxury automotive enthusiasts. We provide only the finest curated collections.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-links reveal">
+            <h4>Collections</h4>
+            <ul>
+                <li><a href="#">Hypercars</a></li>
+                <li><a href="#">Luxury SUVs</a></li>
+                <li><a href="#">Classic Series</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-contact reveal">
+            <h4>Showroom</h4>
+            <p>Jakarta High-End District, Kav. 22</p>
+            <p>info@luxeauto.com</p>
+            <p>+62 21 555 0123</p>
+        </div>
+    </div>
+
+    <div class="footer-bottom container">
+        <p>&copy; 2026 LUXE AUTO. All Rights Reserved.</p>
+        <div class="footer-legal">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+    </div>
+</footer>
+    </div>
+
+    <div id="carModal" class="modal">
+        <div class="modal-content glass">
+            <span class="close-modal">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
